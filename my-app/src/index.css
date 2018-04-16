@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation */
+
+.top-header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navigation {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.dropdown-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font: 900 22px Montserrat, Futura, sans-serif;
+} 
+
+.dropdown-menu li:first-child {
+    margin-right: auto;
+}
+
+.dropdown-menu li {
+    padding: 0 5px;
+}
+
+.dropdown-menu a {
+    flex-grow: 1;
+    color: #1a1c1d;
+}
+
+.dropdown-menu a:hover {
+    color: #1275D5;
+}
+
+.hamburger-menu {
+    display: none;
+}
